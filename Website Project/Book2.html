@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Playbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="introduction.html" class="logo"><img src="g.png" alt=""></a>
+        
+        <div class="search-box">
+            <img src="search.png" alt="">
+            <input type="text" placeholder="search here...">
+        </div>
+
+    </div>
+
+    <div class="navbar-center">
+        <ul>
+            <li><a href="introduction.html"><img src="home.png" alt=""><span>Homepage</span></a></li>
+            <li><a href="references.html"><img src="notification.png" alt=""><span>References</span></a></li>
+            <li><a href="Book2.html" class="active-link"><img src="network.png" alt=""><span>My Books</span></a>
+                <ul>
+                    <li><a href="intro.html">Introduction</a></li>
+                    <li><a href="index.html">Life Learnings</a></li>
+                    <li><a href="Book2.html">Growth Mindset</a></li>
+                    <li><a href="Book3.html">Socio Emotional Learning Principles</a></li>
+                    <li><a href="Book4.html">Tenets of the Whole Child</a></li>
+                    <li><a href="Book5.html">PERMA Model of Well-Being</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar-right">
+        <div class="online">
+            <img src="rian.png" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+
+<!------------ profile-drop-down-menu --------------->
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="rian.png">
+            <div>
+                <h3>Rian Tolomia</h3>
+                <a href="profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="setting.png">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="display.png">
+            <p>Display & Accessibility</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+
+    </div>
+</div>
+
+
+</nav>
+
+<!------------ navbar close --------------->
+
+<div class="container">
+    <!------------ left-sidebar --------------->
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="cover.jpg" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="rian.png" alt="">
+                <h1>Rian Tolomia</h1>
+                <h3>Master of Arts in Education Major in Social Sciences</h3>
+                <ul>
+                    <li>Your profile views <span>52</span></li>
+                    <li>Your post views <span>810</span></li>
+                    <li>Your connections <span>205</span></li>
+                </ul>
+
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"> <img src="item.png" alt="">My Items</a>
+                <a href="#"> <img src="premium.png" alt="">Try Premium</a>
+            </div>
+        </div>
+        
+        <div class="sidebar-activity">
+            <h3>Recent</h3>
+            <a href="#"><img src="recent.png" alt="">Web Developer</a>
+            <a href="#"><img src="recent.png" alt="">User Interface</a>
+            <a href="#"><img src="recent.png" alt="">Online Learning</a>
+            <a href="#"><img src="recent.png" alt="">Learn Online</a>
+            <a href="#"><img src="recent.png" alt="">Code Better</a>
+            <a href="#"><img src="recent.png" alt="">Group Learning</a>
+            <h3>Books</h3>
+            <a href="index.html"><img src="book.png" alt="">Book 1: Life Learning</a>
+            <a href="Book2.html"><img src="book.png" alt="">Book 2: Growth Mindset</a>
+            <a href="Book3.html"><img src="book.png" alt="">Book 3: Socio-Emotional principles</a>
+            <a href="Book4.html"><img src="book.png" alt="">Book 4: TENETS of the Whole Childs</a>
+            <a href="Book5.html"><img src="book.png" alt="">Book 5: PERMA Model of Well-Being</a>
+            
+            <h3>Hashtag</h3>
+            <a href="#"><img src="hashtags.png" alt="">webdevelopment</a>
+            <a href="#"><img src="hashtags.png" alt="">userinterface</a>
+            <a href="#"><img src="hashtags.png" alt="">onlinelearning</a>
+
+            <div class="discover-more-link">
+                <a href="#">Discover More</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!------------ main content --------------->
+    <div class="main-content">
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="rian.png">
+                <textarea rows="2" placeholder="Write a post"></textarea>
+            </div>
+
+            <div class="create-post-links">
+                <li><img src="camera.png">Photo</li>
+                <li><img src="video.png">Video</li>
+                <li><img src="event.png">Event</li>
+                <li>Post</li>
+            </div>
+        </div>
+
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top <img src="arrow-down.png"></span></p>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="rian.png">
+                <div>
+                    <h1>Rian Tolomia</h1>
+                    <small>Books 2 | Growth Mindset</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p></p>
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/pN34FNbOKXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <div class="post-stats">
+                <div>
+                    <img src="thumbs-up.png">
+                    <img src="love.png">
+                    <img src="clap.png">
+                    <span class="liked-users">Rian Tolomia and 100 others</span>
+                </div>
+                <div>
+                    <span>36 comments &middot; 40shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+
+                <div class="post-activity-link">
+                    <img src="rian.png" class="post-activity-user-icon">
+                    <img src="arrow-down.png" class="post-activity-arrow-icon">
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="like.png">
+                    <span>like</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="send.png">
+                    <span>Send</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="rian.png">
+                <div>
+                    <h1>Rian Tolomia</h1>
+                    <small>Books 2 | Growth Mindset</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>"Book 2: GROWTH MINDSET"</p>
+            <iframe width="100%" height="500" src="GROWTH MINDSET.pdf" title="Post File" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+            <div class="post-stats">
+                <div>
+                    <img src="thumbs-up.png">
+                    <img src="love.png">
+                    <img src="clap.png">
+                    <span class="liked-users">Rian Tolomia and 100 others</span>
+                </div>
+                <div>
+                    <span>36 comments &middot; 40shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+
+                <div class="post-activity-link">
+                    <img src="rian.png" class="post-activity-user-icon">
+                    <img src="arrow-down.png" class="post-activity-arrow-icon">
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="like.png">
+                    <span>like</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="send.png">
+                    <span>Send</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="rian.png">
+                <div>
+                    <h1>Rian Tolomia</h1>
+                    <small>Books 2 | Growth Mindset</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <img src="mindset quote.jpg" width="100%" height="500">
+
+            <div class="post-stats">
+                <div>
+                    <img src="thumbs-up.png">
+                    <img src="love.png">
+                    <img src="clap.png">
+                    <span class="liked-users">Rian Tolomia and 100 others</span>
+                </div>
+                <div>
+                    <span>36 comments &middot; 40shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+
+                <div class="post-activity-link">
+                    <img src="rian.png" class="post-activity-user-icon">
+                    <img src="arrow-down.png" class="post-activity-arrow-icon">
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="like.png">
+                    <span>like</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="send.png">
+                    <span>Send</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+    </div>
+
+    <!------------ right-sidebar --------------->
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="trending.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">High demand for skilled teachers</a>
+            <span>1d ago &middot; 12,000 readers</span>
+
+            <a href="#">Careers  growing horizontally</a>
+            <span>20h ago &middot; 10,546 readers</span>
+
+            <a href="#">Integration of MAPEH and Araling Panlipunan</a>
+            <span>1day ago &middot; 30,354 readers</span>
+
+            <a href="#">High demand for ICT teachers</a>
+            <span>12h ago &middot; 50,478 readers</span>
+            
+            <a href="#" class="read-more-link">Read More</a>
+            
+        </div>
+
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Learn more the 4 Life Learnings</p>
+            <div>
+                <img src="p.png">
+                <img src="t.png">
+            </div>
+            <b>Brand and Demand in Samsung</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+            <a href="">About</a>
+            <a href="">Accessibility</a>
+            <a href="">Help Center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Advertising</a>
+            <a href="">Get the App</a>
+            <a href="">About</a>
+
+            <div class="copyright-msg">
+                <img src="g.png">
+                <p>Linkedup &#169; 2022. All right reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    let profileMenu = document.getElementById("profileMenu")
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu")
+    }
+
+</script>
+
+<script>
+
+    let sideActivity = document.getElementById("sidebarActivity");
+    let moreLink = document.getElementById("showMoreLink");
+
+    function toggleActivity(){
+        sideActivity.classList.toggle("open-activity");
+
+        if(sideActivity.classList.contains("open-activity")){
+            moreLink.innerHTML = "Show less <b>-</b>";
+        }
+
+        else{
+            moreLink.innerHTML = "Show more <b>+</b>";
+        }
+    }
+
+</script>
+
+</body>
+</html>
